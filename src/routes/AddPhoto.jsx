@@ -10,7 +10,7 @@ const AddPhoto = () => {
 
   const addPhoto = (e) => {
     e.preventDefault();
-    fetch("https://gallery-app-server.vercel.app/photos",{
+    fetch("https://gallery-app-server.vercel.app/photos ",{
       method: "POST",
       headers: {
         'Content-Type': 'application/json'
